@@ -2,43 +2,65 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <style>
-        /* Căn chỉnh khung ra giữa màn hình */
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f2f5;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Khung xanh */
-        .blue-box {
-            border: 3px solid #0056b3;
-            background-color: #e6f0fa;
-            color: #0056b3;
-            padding: 40px 60px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .blue-box h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-    </style>
+    <title>Thông tin Trường THPT</title>
 </head>
 <body>
+    <h1>Báo cáo thông tin trường THPT</h1>
+    <p><strong>Mục đích:</strong> Tìm thông tin về các trường THPT tại địa phương để quyết định lựa chọn nguyện vọng đăng kí.</p>
+    
+    <h2>1. Điểm chuẩn và chỉ tiêu tuyển sinh của trường trong ba năm gần nhất</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Năm học</th>
+                <th>Điểm nguyện vọng 1</th>
+                <th>Điểm nguyện vọng 2</th>
+                <th>Điểm nguyện vọng 3</th>
+                <th>Chỉ tiêu tuyển sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2026-2027</td>
+                <td>21</td>
+                <td>21,75</td>
+                <td>22</td>
+                <td>630 học sinh</td>
+            </tr>
+            <tr>
+                <td>2025-2026</td>
+                <td>18,25</td>
+                <td>19</td>
+                <td>20</td>
+                <td>630 học sinh</td>
+            </tr>
+            <tr>
+                <td>2024-2025</td>
+                <td>18</td>
+                <td>18,25</td>
+                <td>18,5</td>
+                <td>630 học sinh</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="blue-box">
-        <h1>Hello World</h1>
-    </div>
+    <h2>2. Tỉ lệ học sinh của trường tốt nghiệp THPT và trúng tuyển vào các trường đại học</h2>
+    <ul>
+        <li><strong>Tỉ lệ tốt nghiệp THPT:</strong> Luôn duy trì ổn định từ 99.5% đến 100% qua các năm.</li>
+        <li><strong>Tỉ lệ trúng tuyển Đại học – Cao Đẳng:</strong> Đạt khoảng 75% – 80%. Học sinh của trường thường trúng tuyển vào các trường như: Đại học Quốc gia TP.HCM, ĐH Sư phạm Kỹ thuật, ĐH Kinh tế TP.HCM (UEH), ĐH Mở TP.HCM, ĐH Văn Lang,...</li>
+    </ul>
 
+    <h2>3. Những nhóm môn học mà trường có thế mạnh</h2>
+    <ul>
+        <li><strong>Khoa học Tự nhiên (Toán, Vật lý, Hóa học):</strong> Trường có truyền thống bồi dưỡng tốt các tổ hợp A00, A01, B00.</li>
+        <li><strong>Ngoại ngữ & Công nghệ:</strong> Trường đẩy mạnh các lớp liên kết Tiếng Anh tăng cường, ứng dụng công nghệ thông tin và giáo dục STEM vào giảng dạy theo Chương trình GDPT 2018.</li>
+    </ul>
+
+    <h2>4. Các hoạt động ngoại khoá của trường</h2>
+    <ul>
+        <li><strong>Hệ thống CLB đa dạng:</strong> CLB STEM/Sáng tạo, CLB Tiếng Anh, CLB Âm nhạc/Nhảy hiện đại.</li>
+        <li><strong>Thể dục thể thao:</strong> Các giải đấu thường niên như bóng đá, bóng rổ, cầu lông cấp trường.</li>
+        <li><strong>Hoạt động phong trào & Tình nguyện:</strong> Chiến dịch Hoa Phượng Đỏ, Hội trại truyền thống, ngày hội văn hóa dân gian và các chương trình kỹ năng sống.</li>
+    </ul>
 </body>
 </html>
